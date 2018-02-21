@@ -17,3 +17,9 @@ Replace N with the log number as shown in reflog
 ```
 git log --pretty=oneline
 ```
+
+#### Rebase to master and get the forked repo in sync from local
+```
+git pull --rebase main master
+git push -f
+```
