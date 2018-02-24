@@ -6,6 +6,11 @@ Commands which help me to navigate around git
 git reflog
 ```
 
+#### Check the history log with timestamp
+```
+git reflog --date=iso
+```
+
 #### Undo a rebase/squash 
 ```
 git reset --hard HEAD@{N}
