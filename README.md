@@ -28,3 +28,9 @@ git log --pretty=oneline
 git pull --rebase main master
 git push -f
 ```
+
+#### Messed Up and want to revert the commit
+```
+git reset --soft HEAD^ (If you want to keep the changes on local)
+git reset --hard HEAD^ (Messed up big time & don't care about the changes)
+```
