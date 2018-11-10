@@ -6,6 +6,11 @@ Commands which help me to navigate around git
 git reflog
 ```
 
+#### Set sublime(or your favorite text editor) as default text editor for editing commits
+```
+git config --global core.editor "subl -n -w"
+```
+
 #### Check the history log with timestamp
 ```
 git reflog --date=iso
