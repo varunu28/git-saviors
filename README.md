@@ -34,3 +34,9 @@ git push -f
 git reset --soft HEAD^ (If you want to keep the changes on local)
 git reset --hard HEAD^ (Messed up big time & don't care about the changes)
 ```
+
+#### Maven commands (Specific to checkstyle project)
+```
+mvn -Passembly -Dmaven.test.skip=true package
+mvn verify
+```
