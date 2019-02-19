@@ -45,3 +45,6 @@ git reset --hard HEAD^ (Messed up big time & don't care about the changes)
 mvn -Passembly -Dmaven.test.skip=true package
 mvn verify
 ```
+
+#### Clone a particular branch
+git clone --single-branch --branch <BRANCH_NAME> <REPO_URL>
