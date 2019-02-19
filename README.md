@@ -47,4 +47,6 @@ mvn verify
 ```
 
 #### Clone a particular branch
+```
 git clone --single-branch --branch <BRANCH_NAME> <REPO_URL>
+```
